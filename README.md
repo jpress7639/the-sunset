@@ -1,4 +1,4 @@
-# the-Sunset-Chaser
+# The Sunset Chaser
 The Sunset Chaser - the myths, the facts, the dream!
 
 1. **Title:** 
@@ -17,13 +17,33 @@ Mockups of your app on desktop, tablet, and mobile.
 -
 
 1. **MVP API:** 
-The API you will be using, a link to the documentation, and a snippet of JSON from a successful GET request.
+The Sunrise/Sunset API: https://sunrise-sunset.org/api
 
 1. **MVP Component Heirarchy:** 
-A visual tree of your components, depicting the parent/child relationships, as well as an indication of which will be class components, requiring state, and which will be functional components, taking props.
+Main Menu  --> 
+           --> About Page
+           --> Science Behind Sunsets 
+                     --> Going through each phase of the sunset movement
+                     --> a 2nd API could potentially go here
+           --> The Psychology Behind It --> Potentially finding Headspace 
+           --> Find Your Sunset --> Using the Sunset API for the user to track your location (maybe using a countdown)
+           --> Sharing my Sunset Story 
+                        --> Submit your Sunset Story
+           
 
 1. **MVP Timeframes:** 
-How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. 
+
+This will track my estimation on how much time I will be spending on. I think this how long each aspect of this app. 
+
+| Component | Priority | Estimated Time | Time Invested | Actual Time |
+| --- | :---: |  :---: | :---: | :---: |
+| Working with API / Rendering Data in Proper Format | H | 8 hrs |  | |
+| Component Structure and Application | H | 9 hrs | | |
+| CSS Design and Animation | M | 6 hrs |  | |
+| HTML Rendering from Components | M | 4 hrs |  |  |
+| Phone and Tablet Media Query | M | 2 hrs |  | |
+| Post-MVP Work | L | 6 hrs |  |  |
+| Total | H | 35 hrs |  |  |
 
 1. **Post-MVP:** 
 - having a functional animated sunset using CSS as the user scrolls through the page
