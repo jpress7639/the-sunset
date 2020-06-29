@@ -8,13 +8,14 @@ The Sunset Chaser
 This app will be dedicated to helping users find incredible sunset spots not only around the world, but also in their backyard! The user will be able to find important information on sunsets, the science behind it, and why it is so mesmerizing to witness them. The app will also be able to show some of the most beautiful sunset spots and give off what the times the sunsets will be in that exact location. 
 
  **Wireframes:**
-Mockups of your app on desktop, tablet, and mobile.
+
+https://codepen.io/jpress7639/project/full/ZpwNba
 
  **MVP:**
 - using the sunset/sunrise API, being able for the user to pinpoint sunset times from their exact location
 - having functional slides when presenting the science behind it as well as the psychology and other facts behind it 
 - making it presentable and functional on all forms of media queries
--
+
 
 **MVP API:** 
 The Sunrise/Sunset API: https://sunrise-sunset.org/api
