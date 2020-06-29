@@ -52,6 +52,7 @@ This will track my estimation on how much time I will be spending on. I think th
 
 
 **SWOT Analysis:** 
+
 Strengths: 
 - Aesthetic: The structure behind this page with my skills in CSS will make this app look aesthetically pleasing. 
 - Content: The science and facts behind this phenomenon will be strong in this app. Also, the API will be able to give the sunset chasers the most efficient to plan their sunset viewings.
