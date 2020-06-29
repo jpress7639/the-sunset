@@ -21,16 +21,8 @@ https://codepen.io/jpress7639/project/full/ZpwNba
 The Sunrise/Sunset API: https://sunrise-sunset.org/api
 
 **MVP Component Heirarchy:** 
-Main Menu  --> 
-           --> About Page
-           --> Science Behind Sunsets 
-                     --> Going through each phase of the sunset movement
-                     --> a 2nd API could potentially go here
-           --> The Psychology Behind It --> Potentially finding Headspace 
-           --> Find Your Sunset --> Using the Sunset API for the user to track your location (maybe using a countdown)
-           --> Sharing my Sunset Story 
-                        --> Submit your Sunset Story
-           
+
+https://res.cloudinary.com/dkhiieq9p/image/upload/v1593441513/Screen_Shot_2020-06-29_at_10.37.37_AM_ismt6g.png
 
 **MVP Timeframes:** 
 
