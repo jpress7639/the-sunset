@@ -1,25 +1,25 @@
 # The Sunset Chaser
 The Sunset Chaser - the myths, the facts, the dream!
 
-1. **Title:** 
+ **Title:** 
 The Sunset Chaser
 
-1. **Description:**
+ **Description:**
 This app will be dedicated to helping users find incredible sunset spots not only around the world, but also in their backyard! The user will be able to find important information on sunsets, the science behind it, and why it is so mesmerizing to witness them. The app will also be able to show some of the most beautiful sunset spots and give off what the times the sunsets will be in that exact location. 
 
-1. **Wireframes:**
+ **Wireframes:**
 Mockups of your app on desktop, tablet, and mobile.
 
-1. **MVP:**
+ **MVP:**
 - using the sunset/sunrise API, being able for the user to pinpoint sunset times from their exact location
 - having functional slides when presenting the science behind it as well as the psychology and other facts behind it 
 - making it presentable and functional on all forms of media queries
 -
 
-1. **MVP API:** 
+**MVP API:** 
 The Sunrise/Sunset API: https://sunrise-sunset.org/api
 
-1. **MVP Component Heirarchy:** 
+**MVP Component Heirarchy:** 
 Main Menu  --> 
            --> About Page
            --> Science Behind Sunsets 
@@ -31,7 +31,7 @@ Main Menu  -->
                         --> Submit your Sunset Story
            
 
-1. **MVP Timeframes:** 
+**MVP Timeframes:** 
 
 This will track my estimation on how much time I will be spending on. I think this how long each aspect of this app. 
 
@@ -45,13 +45,13 @@ This will track my estimation on how much time I will be spending on. I think th
 | Post-MVP Work | L | 6 hrs |  |  |
 | Total | H | 35 hrs |  |  |
 
-1. **Post-MVP:** 
+**Post-MVP:** 
 - having a functional animated sunset using CSS as the user scrolls through the page
 - Using a 2nd API to provide Moon Phases as well, and sunset quality 
 - Maybe using a Component for Headspace so meditation/mindfulness excercises can be performed during one's sunset time.
 
 
-1. **SWOT Analysis:** 
+**SWOT Analysis:** 
 Strengths: 
 - Aesthetic: The structure behind this page with my skills in CSS will make this app look aesthetically pleasing. 
 - Content: The science and facts behind this phenomenon will be strong in this app. Also, the API will be able to give the sunset chasers the most efficient to plan their sunset viewings.
