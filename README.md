@@ -11,6 +11,8 @@ This app will be dedicated to helping users find incredible sunset spots not onl
 
 https://codepen.io/jpress7639/project/full/ZpwNba
 
+- This was a mockup I made in a previous class. The slides would be different including the image of me that you will see, but the format would generally be the same.
+
  **MVP:**
 - using the sunset/sunrise API, being able for the user to pinpoint sunset times from their exact location
 - having functional slides when presenting the science behind it as well as the psychology and other facts behind it 
