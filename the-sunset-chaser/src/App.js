@@ -3,7 +3,7 @@ import './App.css';
 import About from "./About"
 import Science from "./Science"
 import Psych from "./Psych"
-import FindSunset from "./Find"
+import Find from "./Find"
 import { Route, Link } from "react-router-dom"
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <div>
 <header>
   <nav>
-  <Link to="/" style={{ textDecoration: 'none'}}> <h1>The Sunset Chaser ☀️ </h1></Link>
+  <Link to="/" style={{ textDecoration: 'none'}}> <h1>The Sunset Chaser <span>☀️</span></h1></Link>
     <ul>
     <Link to="/about" style={{ textDecoration: 'none' }}><li>About</li></Link>
     <Link to="/science" style={{ textDecoration: 'none'}}><li>Behind The Colors</li></Link>
@@ -32,7 +32,7 @@ function App() {
   <Psych />
 </Route>
 <Route path="/your-sunset">
-  <FindSunset />
+  <Find />
 </Route>
     </div>
   );
