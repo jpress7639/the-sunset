@@ -17,10 +17,16 @@ function App() {
     <Link to="/about" style={{ textDecoration: 'none' }}><li>About</li></Link>
     <Link to="/science" style={{ textDecoration: 'none'}}><li>Behind The Colors</li></Link>
     <Link to="/find-sunset" style={{ textDecoration: 'none'}}><li>Find Sunset</li></Link>
-    <Link to="/your-sunset" style={{ textDecoration: 'none'}}><li>Share Your Sunset</li></Link>
     </ul>
   </nav>
 </header>
+<Route path="/" exact>
+<div className="intro">
+  <h2>Welcome to the Sunset Chaser! Look through to find your horizon!</h2>
+  <p >And look below to see our Gallery contributed by our fellow Chasers!</p>
+  </div>
+  <YourSunset />
+  </Route>
 <div className="sun"></div>
 <Route path="/about">
 <About />
@@ -30,9 +36,6 @@ function App() {
 </Route>
 <Route path="/find-sunset">
   <Find />
-</Route>
-<Route path="/your-sunset">
-  <YourSunset />
 </Route>
     </div>
   );

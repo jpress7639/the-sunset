@@ -51,6 +51,32 @@ header nav ul li:hover {
   transform: scale(1.1)
 }
 
+div.intro {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px 5px;
+  margin: 40px auto;
+  width: 75%;
+  transition: all 2s;
+}
+
+div.intro:hover {
+  color: gold;
+  transform: scale(1.1);
+}
+
+div.intro h2{
+  font-family: lato;
+  text-align: center;
+}
+
+div.intro p {
+  font-family: lato;
+  font-size: 20px;
+  text-align: center;
+  padding: 30px 10px;
+}
+
 div.sun {
   width: 100px;
   height: 100px;
@@ -207,6 +233,10 @@ button:hover{
   transform: scale(1.1);
 }
 
+div.your-sunset {
+  margin: 200px auto;
+}
+
 h2.instruction {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 20px;
@@ -245,8 +275,9 @@ div.gallery {
   margin: 40px auto;
   padding: 20px;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   text-align: center;
 }
 
