@@ -1,5 +1,4 @@
 import React from "react"
-import Science from "./Science"
 
 export default function Psych(props) {
         return(

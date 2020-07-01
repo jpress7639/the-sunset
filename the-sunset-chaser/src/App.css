@@ -36,7 +36,7 @@ header nav ul{
   display: flex;
   list-style-type: none;
   justify-content: space-evenly;
-  padding-top: 20px;
+  padding: 20px 10px 0 0;
 }
 
 header nav ul li{
@@ -97,6 +97,15 @@ div.about img {
   margin-bottom: 20px;
 }
 
+div.science {
+  display: flex;
+  flex-direction: column;
+}
+
+div.science button {
+  margin: 50px auto;
+}
+
 div.psyche {
   background: rgba(255, 255, 255, 0.5);
   border-radius: 20px;
@@ -111,7 +120,7 @@ div.psyche {
 }
 
 div.psyche:hover {
-  background-color: rgba(253, 198, 103, 0.8);
+  background-color: rgba(252, 191, 85, 0.8);
 }
 
 div.psyche h2 {
@@ -145,6 +154,10 @@ div.psyche img{
 
 div.psyche img:hover {
   transform: scale(1.1)
+}
+
+button.learn-more {
+  margin: 0 auto;
 }
 
 div.results {
@@ -192,4 +205,71 @@ button {
 button:hover{
   color: gold;
   transform: scale(1.1);
+}
+
+h2.instruction {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px 10px rgba(70, 107, 109, 0.5);
+  width: 40%;
+  text-align: center;
+  margin: 40px auto;
+  font-family: indie flower;
+  font-size: 40px;
+  transition: all 2s;
+}
+
+ h2.instruction:hover{
+  transform: scale(1.1);
+  color: gold;
+}
+
+ p.instruction {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  box-shadow: 10px 10px 15px 10px rgba(70, 107, 109, 0.5);
+  width: 40%;
+  text-align: center;
+  margin: -15px auto;
+  font-family: indie flower;
+  font-size: 30px;
+  transition: all 2s;
+}
+
+ p.instruction:hover{
+  transform: scale(1.1);
+  color: gold;
+}
+
+div.gallery {
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+div.gallery img {
+  height: 200px;
+  width: 300px;
+  box-shadow: 10px 10px 55px 1px;
+  border-radius: 5px;
+}
+
+div.gallery p {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 5px;
+  width: 60%;
+  font-size: 20px;
+  font-family: lato;
+  margin: 15px auto;
+}
+
+form.add-sunset{
+  margin: 75px auto;
+}
+
+form.add-sunset input{
+  width: 33%;
 }

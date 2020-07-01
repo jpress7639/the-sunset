@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
+import { Route, Link } from "react-router-dom"
+
 import About from "./About"
 import Science from "./Science"
 import Find from "./Find"
-import { Route, Link } from "react-router-dom"
+import YourSunset from "./YourSunset"
 
 function App() {
   return (
@@ -14,8 +16,8 @@ function App() {
     <ul>
     <Link to="/about" style={{ textDecoration: 'none' }}><li>About</li></Link>
     <Link to="/science" style={{ textDecoration: 'none'}}><li>Behind The Colors</li></Link>
-    <Link to="/your-sunset" style={{ textDecoration: 'none'}}><li>Your Sunset</li></Link>
-    <Link to="/blog" style={{ textDecoration: 'none'}}><li>Share Your Sunset</li></Link>
+    <Link to="/find-sunset" style={{ textDecoration: 'none'}}><li>Find Sunset</li></Link>
+    <Link to="/your-sunset" style={{ textDecoration: 'none'}}><li>Share Your Sunset</li></Link>
     </ul>
   </nav>
 </header>
@@ -26,8 +28,11 @@ function App() {
 <Route path="/science">
 <Science />
 </Route>
-<Route path="/your-sunset">
+<Route path="/find-sunset">
   <Find />
+</Route>
+<Route path="/your-sunset">
+  <YourSunset />
 </Route>
     </div>
   );
