@@ -28,6 +28,12 @@ export default function YourSunset() {
             imageSRC: image
         })
         setGallery(newGallery)
+        clearInput()
+    }
+
+    const clearInput = (e) => {
+        setimageURL('')
+        setPlaceName('')
     }
     
 
@@ -37,8 +43,8 @@ export default function YourSunset() {
         <h2 className="instruction">The Sunset Gallery</h2>
         <p className="instruction">Submit Your Favorite Sunset Pic and Place below!</p>
         <form className="add-sunset">
-            <input placeholder="Add A Link to Your Sunset Pic" onChange={handleURL}></input>
-            <input placeholder="Add The Location of the Sunset" onChange={handlePlace}></input>
+            <input value={image} placeholder="Add A Link to Your Sunset Pic" onChange={handleURL}></input>
+            <input value={place} placeholder="Add The Location of the Sunset" onChange={handlePlace}></input>
             <button onClick={addToGallery}>Add Your Sunset!</button>
         </form>
         <div className="gallery">

@@ -1,12 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:ital,wght@0,300;0,400;1,100&family=Raleway:ital,wght@0,400;0,500;0,900;1,300&display=swap');
 
+/* Sky animation adapted from https://codepen.io/mdaroueche/pen/bkCJv?editors=0100 */
+
 body {
-  background-color: rgb(113, 203, 252);
+  background: radial-gradient(#b5dff2 0%, #62b8e0 100%);
+
+  -webkit-animation: skyChange 15s infinite;
+	-moz-animation: skyChange 15s infinite;
+	-ms-animation: skyChange 15s infinite;
+	-o-animation: skyChange 15s infinite;
+  animation: skyChange 15s infinite;
+
+	-webkit-animation-delay: 0s;
+	-moz-animation-delay: 0s;
+	-ms-animation-delay: 0s;
+	-o-animation-delay: 0s;
+	animation-delay: 0s;
+	-webkit-animation-direction: alternate-reverse;
 }
 
 header {
   background-color: rgba(42, 59, 61, 0.5);
   transition: all 2s;
+  position: relative;
 }
 
 header:hover {
@@ -95,8 +111,226 @@ div.sun {
   left: 50%;
   z-index: -100;
   box-shadow: 10px 10px 15px 5px rgba(249, 236, 114, 0.7);
-}
 
+  -webkit-animation: sunRising 15s infinite;
+	-moz-animation: sunRising 15s infinite;
+	-ms-animation: sunRising 15s infinite;
+	-o-animation: sunRising 15s infinite;
+  animation: sunRising 15s infinite;
+
+  -webkit-animation-delay: 0s;
+	-moz-animation-delay: 0s;
+	-ms-animation-delay: 0s;
+	-o-animation-delay: 0s;
+	animation-delay: 0s;
+	-webkit-animation-direction: alternate-reverse;
+  
+}
+ 
+ @keyframes sunRising {
+  0% {
+    background: rgb(249, 236, 114);
+    /* left: 40%; */
+    top: 5%;
+  }
+  25% {
+    background: rgb(249, 224, 114);
+    /* left: 40%; */
+  }
+  50% {
+    background: #e67e22;
+  }
+  75% {
+    background: #e74c3c;
+  }
+  100% {
+    background: #fd894c;
+    top: 100%;
+  }
+ 
+ }
+ 
+ @-webkit-keyframes sunRising {
+  0% {
+    background: rgb(249, 236, 114);
+    top: 0;
+  }
+  25% {
+    background: rgb(249, 236, 114);
+  }
+  50% {
+    background: #fcc24e;
+  }
+  75% {
+    background: #e07684;
+  }
+  100% {
+    background: #fd894c;
+    top: 100%;
+  }
+ 
+ }
+ 
+ @-ms-keyframes sunRising {
+  0% {
+    background: rgb(249, 236, 114);
+    left: 40%;
+    top: 0;
+  }
+  25% {
+    background: rgb(249, 236, 114);
+    left: 40%;
+  }
+  50% {
+    background: #fcc24e;
+  }
+  75% {
+    background: #e07684;
+  }
+  100% {
+    background: #fd894c;
+    top: 100%;
+  }
+ 
+ }
+ 
+ @-o-keyframes sunRising {
+  0% {
+    background: rgb(249, 236, 114);
+    left: 40%;
+    top: 0;
+  }
+  25% {
+    background: #f39c12;
+    left: 40%;
+  }
+  50% {
+    background: #e67e22;
+  }
+  75% {
+    background: #e07684;
+  }
+  100% {
+    background: #fd894c;
+    top: 100%;
+  }
+ 
+ }
+ 
+ @keyframes skyChange {
+  0% {
+     background: #62b8e0;
+     
+  }
+
+  15% {
+    background: #b5dff2;
+  }
+
+  35% {
+     background: #62b8e0;
+  }
+  50% {
+    background: #f7c231;
+  }
+
+  55% {
+    background: #ef7c43;
+  }
+
+  75% {
+     background: #ddbd96;
+  }
+
+  85% {
+    background: #7b9d84;
+  }
+
+  100% {
+    background: #012f3a;
+  }
+ 
+ }
+ 
+ @-moz-keyframes skyChange {
+  0% {
+    background: radial-gradient(#b5dff2 0%, #62b8e0 100%);
+ }
+ 25% {
+    background: radial-gradient(#b5dff2 0%, #62b8e0 100%);
+ }
+ 50% {
+   background: radial-gradient(#f7c231 0%,#ef7c43 100%);
+ }
+ 75% {
+    background: radial-gradient(#ddbd96 0%, #7b9d84 100%);
+ }
+ 100% {
+    background: radial-gradient(#00a5aa 0%, #012f3a 100%);
+ }
+ 
+ }
+ 
+ @-webkit-keyframes skyChange {
+  0% {
+    background: radial-gradient(#b5dff2 0%, #62b8e0 100%);
+  }
+ 25% {
+    background: radial-gradient(#b5dff2 0%, #62b8e0 100%);
+  }
+ 50% {
+   background: radial-gradient(#f7c231 0%,#ef7c43 100%);
+ }
+ 75% {
+    background: radial-gradient(#ddbd96 0%, #7b9d84 100%);
+ }
+ 100% {
+    background: radial-gradient(#00a5aa 0%, #012f3a 100%);
+ }
+
+ 
+ }
+ 
+ @-ms-keyframes skyChange {
+ 0% {
+    background: radial-gradient(#b5dff2 0%, #62b8e0 100%);
+ }
+ 25% {
+    background: radial-gradient(#b5dff2 0%, #62b8e0 100%);
+ }
+ 50% {
+   background: radial-gradient(#f7c231 0%,#ef7c43 100%);
+ }
+ 75% {
+    background: radial-gradient(#ddbd96 0%, #7b9d84 100%);
+ }
+ 100% {
+    background: radial-gradient(#00a5aa 0%, #012f3a 100%);
+ }
+
+ 
+ }
+ 
+ @-o-keyframes skyChange {
+  0% {
+    background: radial-gradient(#b5dff2 0%, #62b8e0 100%);
+ }
+ 25% {
+    background: radial-gradient(#b5dff2 0%, #62b8e0 100%);
+ }
+ 50% {
+   background: radial-gradient(#f7c231 0%,#ef7c43 100%);
+ }
+ 75% {
+    background: radial-gradient(#ddbd96 0%, #7b9d84 100%);
+ }
+ 100% {
+    background: radial-gradient(#00a5aa 0%, #012f3a 100%);
+ }
+ 
+ }
+
+ 
 div.about {
   background-color: rgba(255, 255, 255, 0.6);
   border-radius: 20px;
@@ -314,18 +548,84 @@ form.add-sunset input{
   width: 33%;
 }
 
+@media (max-width: 768px) {
+  header nav h1{
+    font-size: 25px;
+    padding: 10px 5px;
+    margin-top: 40px;
+  }
+
+  div.your-sunset {
+    margin: 75px auto;
+  }
+
+  div.your-sunset h2{
+    width: 60%;
+  }
+ 
+  div.your-sunset p{
+    width: 60%;
+    font-size: 20px;
+  }
+
+  div.about {
+    width: 80%;
+    height: 70%;
+  }
+
+  div.about p{
+    font-size: 20px;
+  }
+
+  div.psyche {
+    border-radius: 10px;
+    height: 250px;
+    width: 90%;
+    margin: 75px auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 75px 100px;
+    transition: all 1s; 
+  }
+  
+  div.psyche p {
+    font-size: 15px;
+
+  }
+  
+  div.psyche img{
+    margin: 40px auto;
+  }
+  
+  div.science button {
+    width: 30%;
+    font-size: 25px;
+  }
+
+  div.results {
+    width: 60%;
+  }
+}
+
 @media (max-width: 425px) {
   header{
     width: 100%;
+    height: 75px;
+    align-items: center;
   } 
 
   header nav {
     width: 100%;
+    align-items: center;
   }
 
   header nav h1{
     font-size: 20px;
-    padding: 10px;
+    margin: 10px 20px;
+  }
+
+  header nav h1 a{
+    height: 50px;
   }
 
   header nav span.dropdown {
@@ -340,19 +640,21 @@ form.add-sunset input{
   }
 
 div.drop-btn p.dropdown {
-    margin-top: 5px;
+    margin-top: 15px;
+    font-size: 20px;
   }
 
 div.dropdown-content{
-    background-color: rgba(77, 131, 157);
+    background-color: rgba(42, 59, 61, 0.5);
     font-size: 10px;
     position: absolute;
     display: none;
     right: -60px;
+    top: 70px;
     list-style-type: none;
     box-shadow: 10px 10px 25px 1px rgba(42, 59, 61, 0.5);
     transition: all 2s;
-    padding: 12px 16px;
+    padding: 20px 16px;
     z-index: 1;
     width: 100px;
   }
@@ -360,6 +662,7 @@ div.dropdown-content{
   div.dropdown-content a{
     color: #e2e2e2;
     font-family: lato;
+    padding: 5px;
   }
 
   div.dropdown-content a:hover{
@@ -375,4 +678,138 @@ div.dropdown-content{
   header nav ul{
     display: none;
   }
+
+  div.intro {
+    width: 90%;
+  }
+
+  div.intro h2 {
+    font-size: 20px;
+  }
+
+  div.intro p {
+    font-size: 15px;
+  }
+
+  div.your-sunset {
+    margin: 100px auto;
+  }
+
+  div.your-sunset h2.instruction {
+    font-size: 25px; 
+    width: 50%;
+  }
+
+  div.your-sunset p.instruction {
+    font-size: 15px;
+    width: 60%;
+    border-radius: 5px;
+  }
+
+  form.add-sunset input {
+    font-size: 10px;
+    width: 50%;
+  }
+
+  form.add-sunset button{
+    font-size: 10px;
+    width: 30%;
+  }
+
+  div.gallery img {
+    width: 150px;
+    height: 100px;
+  }
+
+  div.gallery p {
+    font-size: 15px;
+    width: 90%;
+  }
+
+  div.about {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+    box-shadow: 10px 10px 45px 5px;
+    width: 90%;
+    height: 60%;
+    margin: 50px auto;
+    text-align: center;
+    transition: all 2s;
+  }
+  
+  div.about:hover{
+    box-shadow: 10px 10px 45px 5px goldenrod;
+  }
+  
+  div.about h1 {
+    padding: 10px;
+    font-family: indie flower;
+    font-size: 25px;
+  }
+  
+  div.about p {
+    padding: 30px;
+    line-height: 20px;
+    font-size: 10px;
+    font-family: raleway;
+  }
+  
+  div.about img {
+    height: 50%;
+    width: 50%;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+  }
+
+  div.psyche {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px 5px;
+    height: 210px;
+    width: 90%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 50px 100px;
+    transition: all 1s; 
+  }
+  
+  div.psyche h2 {
+    font-size: 15px;
+  }
+  
+  div.psyche p {
+    font-size: 10px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 25px;
+  }
+  
+  div.psyche img{
+    height: 150px;
+    width: 200px;
+    margin: 50px auto;
+  }
+
+  div.science button{
+    font-size: 15px;
+    margin: 20px auto;
+  }
+
+  div.results {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px 5px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    margin: 50px auto;
+    width: 80%;
+    transition: all 2s;
+  }
+
+  div.results h2, div.results h3 {
+    font-size: 20px;
+  } 
 }
+
