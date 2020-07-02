@@ -13,12 +13,14 @@ function App() {
 <header>
   <nav>
   <Link to="/" style={{ textDecoration: 'none'}}> <h1>The Sunset Chaser <span className="dropdown">☀️</span></h1></Link>
+  <div className="drop-btn">
   <p className="dropdown">☀️</p>
-    <ul>
+    <div className="dropdown-content">
     <Link to="/about" style={{ textDecoration: 'none' }}><li>About</li></Link>
     <Link to="/science" style={{ textDecoration: 'none'}}><li>Behind The Colors</li></Link>
     <Link to="/find-sunset" style={{ textDecoration: 'none'}}><li>Find Sunset</li></Link>
-    </ul>
+    </div>
+    </div>
     <ul className="dropdownlinks">
     <Link to="/about" style={{ textDecoration: 'none' }}><li>About</li></Link>
     <Link to="/science" style={{ textDecoration: 'none'}}><li>Behind The Colors</li></Link>
